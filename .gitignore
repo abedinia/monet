@@ -1,0 +1,9 @@
+/target/
+/artifacts/
+*.log
+__pycache__/
+/.monet-build
+/.agents/
+/.aws/
+/.codex/
+/monet

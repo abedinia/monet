@@ -1,0 +1,14 @@
+[package]
+name = "monet"
+version = "0.3.0"
+edition = "2021"
+description = "A terminal network monitor for Linux and macOS"
+license = "MIT"
+rust-version = "1.74"
+
+[profile.release]
+lto = true
+codegen-units = 1
+strip = true
+
+[dependencies]
